@@ -1,0 +1,10 @@
+name = "GreenVideoExperiments"
+uuid = "865629b0-6f2f-4bc5-9b2c-3a7680bcfdb0"
+authors = ["Karel Mundnich <mundnich@usc.edu>"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+FilePaths = "8fc22ac5-c921-52a6-82fd-178b2807b824"
+FilePathsBase = "48062228-2e41-5def-b9a4-89aafe57970f"
