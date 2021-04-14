@@ -1,12 +1,12 @@
 """
     load(task::AbstractString, type::AbstractString, frequency::AbstractString)
 
-Load the data for a given task, its type (`annotations` or `ground_truth`), and its frequency (`10Hz` or `30Hz`).
+Load the data for a given task (`TaskA` or `TaskB`), its type (`annotations` or `ground_truth`), and its frequency (`10Hz` or `30Hz`).
 
 Examples
 ========
 
-    julia> df = load("TaskA", "annotations", "30Hz");
+    julia> df = load("TaskA", "annotations", "30Hz")
 """
 function load(task::AbstractString, type::AbstractString, frequency::AbstractString)
     @assert task in ["TaskA", "TaskB"]
