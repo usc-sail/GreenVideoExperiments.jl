@@ -27,15 +27,16 @@ For simplicity, we have also added the data collected at 30Hz and downsamples to
 This package provides the function `load`:
 
 ```julia
-	load(task::AbstractString, type::AbstractString, frequency::AbstractString)
+help?> load
+search: load LoadError loadparams! LOAD_PATH download unsafe_load clipboard
 
-Load the data for a given task, its type (`annotations` or `ground_truth`), and its frequency (`10Hz` or `30Hz`).
+  load(task::AbstractString, type::AbstractString, frequency::AbstractString)
 
-Examples
-========
-using CSV
-using DataFrames
-using GreenVideoExperiments
+  Load the data for a given task, its type (annotations or ground_truth), and
+  its frequency (10Hz or 30Hz).
 
-julia> df = load("TaskA", "annotations", "30Hz");
+  Examples
+  ≡≡≡≡≡≡≡≡≡≡
+
+  julia> df = load("TaskA", "annotations", "30Hz");
 ```
